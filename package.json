@@ -1,0 +1,31 @@
+{
+  "name": "figli",
+  "version": "1.0.0",
+  "description": "Comming Soon page for figli.gifts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://paulgenov@bitbucket.org/paulgenov/figli.git"
+  },
+  "keywords": [
+    "figli",
+    "gifts"
+  ],
+  "author": "Pavlo Genov",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/paulgenov/figli#readme",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "del": "^2.2.2",
+    "event-stream": "^3.3.4",
+    "file-system": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-preprocess": "^2.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
