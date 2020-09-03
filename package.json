@@ -19,7 +19,7 @@
   "homepage": "https://bitbucket.org/paulgenov/figli#readme",
   "private": true,
   "devDependencies": {
-    "browser-sync": "^2.18.7",
+    "browser-sync": "^2.18.13",
     "del": "^2.2.2",
     "event-stream": "^3.3.4",
     "file-system": "^2.2.2",
@@ -27,5 +27,8 @@
     "gulp-autoprefixer": "^4.0.0",
     "gulp-preprocess": "^2.0.0",
     "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta"
   }
 }

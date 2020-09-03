@@ -4,7 +4,8 @@ var gulp = require('gulp'),
     fs = require('fs'),
     config = require('./gulp.config')(),
     sass = require('gulp-sass'),
-    prefix = require('gulp-autoprefixer');
+    prefix = require('gulp-autoprefixer'),
+    browserSync = require('browser-sync').create();
 
 gulp.task('clean', clean);
 gulp.task('build', ['clean'], build);
@@ -12,7 +13,10 @@ gulp.task('build', ['clean'], build);
 gulp.task('watch', function () {
     gulp.watch(config.src.stylesheets, ['build']);
     gulp.watch(config.src.javascript, ['build']);
+    gulp.watch(config.src.html, ['build']);
 });
+
+// Static server
 
 // Clean previous build files
 function clean() {
