@@ -1,2 +1,2 @@
 # figli.gifts
-Static placeholder for figli.gifts
+Static placeholder website for figli.gifts
