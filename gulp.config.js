@@ -8,11 +8,11 @@ module.exports = function() {
             fonts: 'src/fonts/*'
         },
         build: {
-            html: 'build/',
-            javascript: 'build/js',
-            stylesheets: 'build/css',
-            images: 'build/images',
-            fonts: 'build/fonts'
+            html: 'docs/',
+            javascript: 'docs/js',
+            stylesheets: 'docs/css',
+            images: 'docs/images',
+            fonts: 'docs/fonts'
         }
     };
 };
